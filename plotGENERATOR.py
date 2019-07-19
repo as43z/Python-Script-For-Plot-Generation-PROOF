@@ -179,7 +179,10 @@ def MakeHistogramDEC(Objects, folder):
 ob = []
 objects = []
 
+#Need to enter the full path
 pth = raw_input("Folder to search for: ")
+
+#Need to enter only the name of the folder (A folder will be created automatically on the Desktop)
 fld = raw_input("Create folder (Folder Name you want to create): ")
 
 os.system("mkdir /home/albert/Escritorio/" + fld)
